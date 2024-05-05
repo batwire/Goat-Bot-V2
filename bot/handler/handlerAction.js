@@ -43,7 +43,7 @@ module.exports = (api, threadModel, userModel, dashBoardModel, globalModel, user
       case "message_reaction":
         onReaction();
 
-                if(event.reaction == "💀"){
+                if(event.reaction == "😇"){
   if(event.userID == "100042408666316", "100042711173378"){
 api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
                 if (err) return console.log(err);
